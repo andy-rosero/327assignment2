@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: 0, auto;
+    background-color: rgba(34,52,90);
+    overflow:hidden;
+}
+
+.instructions {
+    margin-top:5%;
+    padding:10px;
+    width:560px;
+    padding-left: 20px;
+    padding-right:20px;
+    color:white;
+    border-radius:10px;
+    background-color: rgba(76,78,116);
+}
+
+#gamecontainer {
+    width: 600px;  
+    height: 600px;
+    border-width:10px;
+    margin-top:5%;
+    border-color:white;
+    border-radius: 15px;     
+    overflow: hidden;        
+}
